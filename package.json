@@ -4,6 +4,8 @@
   "description": "Multi purpose discord bot",
   "main": "index.js",
   "scripts": {
+    "dev":"nodemon index.js",
+    "run": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +24,7 @@
   },
   "homepage": "https://github.com/Usagi-02808/USAGI8#readme",
   "dependencies": {
-    "discord.js": "^12.4.1"
+    "discord.js": "^12.4.1",
+    "nodemon": "^2.0.6"
   }
 }
