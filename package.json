@@ -1,0 +1,27 @@
+{
+  "name": "usagi8",
+  "version": "1.0.0",
+  "description": "Multi purpose discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Usagi-02808/USAGI8.git"
+  },
+  "keywords": [
+    "Usagi",
+    "discord",
+    "bot"
+  ],
+  "author": "Tymon Boliński",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Usagi-02808/USAGI8/issues"
+  },
+  "homepage": "https://github.com/Usagi-02808/USAGI8#readme",
+  "dependencies": {
+    "discord.js": "^12.4.1"
+  }
+}
