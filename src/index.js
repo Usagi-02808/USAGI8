@@ -13,10 +13,12 @@ const prefix = config.prefix;
 // Initialize Comamnd Manager
 commandHandler(client)
 
+//login info
 client.on('ready', () => {
   log(chalk.yellow(`Logged in as ${client.user.tag}!`));
 });
 
+//login token
 client.login(config.token);
 
 //Error manager
