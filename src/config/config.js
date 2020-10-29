@@ -1,6 +1,6 @@
 const dotenv = require("dotenv").config()
 
 module.exports =  {
-    prefix: "!",
+    prefix: process.env.prefix,
     token: process.env.token,
 }
