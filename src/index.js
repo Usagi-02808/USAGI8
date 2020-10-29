@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const chalk = require('chalk');
 
-const config = require('./config.json');
+const config = require('./config/config.js');
 
 const client = new Discord.Client();
 
@@ -16,7 +16,8 @@ commandHandler(client)
 //login info
 client.on('ready', () => {
   log(chalk.yellow(`Logged in as ${client.user.tag}!`));
-});
+  
+})
 
 //login token
 client.login(config.token);
